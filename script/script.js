@@ -14,6 +14,16 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 */
 
 // Ciclo tutti i numeri da 1 a 100
-for (let i = 1; i <= 100; i++) 
+for (let i = 1; i <= 100; i++) {
+
+  // controllo se è multiplo di 3
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+
+  // se è multiplo di 5
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+
+}
 
  
