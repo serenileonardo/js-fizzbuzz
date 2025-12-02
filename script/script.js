@@ -13,17 +13,27 @@ scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */
 
+
 // Ciclo tutti i numeri da 1 a 100
+
 for (let i = 1; i <= 100; i++) {
 
-  // controllo se è multiplo di 3
-  } else if (i % 3 === 0) {
-    console.log("Fizz");
+    // Controllo prima se è multiplo sia di 3 che di 5
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
 
-  // se è multiplo di 5
-  } else if (i % 5 === 0) {
-    console.log("Buzz");
+        // Poi controllo se è multiplo di 3
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
 
+        // Poi se è multiplo di 5
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+
+        // Se non è multiplo di nessuno dei due stampo il numero
+    } else {
+        console.log(i);
+    }
 }
 
- 
+
