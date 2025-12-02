@@ -30,7 +30,7 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 5 === 0) {
         console.log("Buzz");
 
-        // Se non è multiplo di nessuno dei due stampo il numero
+        // Se non è multiplo di nessuno
     } else {
         console.log(i);
     }
